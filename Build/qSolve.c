@@ -14,10 +14,10 @@ double* qSolve(double* in) {
 		roots[2] = 0;
 	}
 	if (0 < roots[2]){
-		roots[0] = (-1*in[1] + sqrt(in[1]*in[1] - 4*in[0]*in[2])) / (2*in[0]);
+		roots[0] = -1 * (-1*in[1] + sqrt(in[1]*in[1] - 4*in[0]*in[2])) / (2*in[0]);
 	}
 	if (1 < roots[2]){
-		roots[1] = (-1*in[1] - sqrt(in[1]*in[1] - 4*in[0]*in[2])) / (2*in[0]);
+		roots[1] = -1 * (-1*in[1] - sqrt(in[1]*in[1] - 4*in[0]*in[2])) / (2*in[0]);
 	}
 	
 	return roots;
