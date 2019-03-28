@@ -5,9 +5,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <float.h>
+#include "validateInputs.h"
 
-
-int validateInputs(double [] in) {
+int validateInputs(double* in) {
 	int ret = 0;
 	if (0 == in[0]){
 		ret = 2; //a == 0
