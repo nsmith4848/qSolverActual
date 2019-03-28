@@ -2,10 +2,6 @@
 //Class: CS 4900
 //qSolver validateInputs.c
 
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
-#include <float.h>
 #include "validateInputs.h"
 
 int validateInputs(double* in) {
