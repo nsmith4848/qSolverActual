@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <math.h>
+
+
 void qsolve()
 {
 	double input[4];
