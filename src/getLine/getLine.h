@@ -1,4 +1,4 @@
-//Name: Michael Steinman
+//Name: Michael Steinman & Nic Smith
 //Class: CS 4900
 //qSolver getLine.h
 
@@ -7,4 +7,4 @@
 #include <string.h>
 
 
-double* getLine();
+int getLine(double input[3], int NLINE, int log, FILE *fp);

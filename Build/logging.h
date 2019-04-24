@@ -7,4 +7,4 @@
 #include <string.h>
 
 
-int getLine(double input[3], int NLINE, int log, FILE *fp);
+void logging(double input[3], double roots[3], int intOne, int intTwo, int sender, int reciever, FILE *fp);
